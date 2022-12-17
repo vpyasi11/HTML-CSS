@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <script src="https://kit.fontawesome.com/9650a62e47.js" crossorigin="anonymous"></script>
+
+    <style>
+        /* *{
+            border: 1px solid red;
+            box-sizing: border-box;
+        } */
+        #nav-bar img{
+            width: 150px;
+            height: 100px;
+        }
+        #nav-bar{
+            display: flex;
+            align-items: center;
+        }
+        #nav-bar ul{
+            display: flex;
+            justify-content: end;
+            width: 100%;
+            font-size:15px;
+        }       
+        ul a{
+            padding: 20px;
+        } 
+        .message-box{
+            text-align:center;
+            /* margin:10px; */
+            padding: 10px;
+        }
+        .message-box input{
+            display: block;
+            margin: 10px auto;
+            width:25%;
+        }
+        #submit{
+            background-color: orange;
+            font-weight: bold;
+            padding: 3px;
+        }
+        #features{
+          display: flex;
+          flex-direction: column;
+          
+          /* align-items: center; */
+        }
+        #features .feature{
+          display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      #features .feature i{
+        color:orange;
+      }
+      #how-it-work{
+        text-align: center;
+        padding: 30px;
+      }
+      #pricing{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 3px;
+        margin: 10px;
+       
+        flex:1;
+      }
+      .price-box{
+        text-align: center;
+        margin:10px;
+        border: 2px solid black;
+       
+        width:80vw;
+        padding-bottom: 10px;
+       
+      }
+      .price-box h3{
+        background-color: gray;
+        margin-top: 0;
+      }
+      .price-box a{
+        background-color: orange;
+        border: 2px solid black;
+      }
+      #main-footer{
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+       
+      }
+      #main-footer div a{
+        padding: 5px;
+        color: blue;
+      }
+      .my-name{
+        margin:10px;
+      }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+          <img id="header-img" src="https://1000logos.net/wp-content/uploads/2020/03/United-Colors-of-Benetton-Logo-1977.png" alt="logo" class="logo">
+          <ul>
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#how-it-work">How It Works</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </ul>
+        </nav>
+    </header>
+    
+      <div id="container">
+        <section class="message-box">
+          <h1>Sample products for shopping</h1>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" name="email" placeholder="example@mail.com">
+          <input id="submit" type="submit" value="GET STARTED" class="btn"></input>
+          </form>
+        </section>
+    
+        <section id="features">
+          <div class="feature">
+            <i class="fab fa-free-code-camp fa-3x"></i>
+            <div>
+              <h2>Quality products</h2>
+              <p>Our products are of premium quality.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <i class="fas fa-shipping-fast fa-3x"></i>
+            <div>
+              <h2>Fast Shipping</h2>
+              <p>We make sure you receive your product timely. We also provide free returns
+                if you are not satisfied.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <i class="fas fa-battery-full fa-3x"></i>
+            <div>
+              <h2>Quality Assurance</h2>
+              <p> we will ensure there are no damages or faults </p>
+            </div>
+          </div>
+        </section>
+        <section id="how-it-work">
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8pq_tCgDkT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="pricing">
+          <div class="price-box">
+            <h3>lorem</h3>
+            <h2>$600</h2>
+            <p>Lorem ipsum.
+              Lorem ipsum.
+              Lorem ipsum dolor.
+              Lorem ipsum.</p>
+            <a href="#" class="btn">SELECT</a>
+          </div>
+          <div class="price-box">
+            <h3>Lorem, ipsum.</h3>
+            <h2>$900</h2>
+            <p>Lorem ipsum.
+              Lorem ipsum.
+              Lorem ipsum dolor.
+              Lorem ipsum.</p>
+            <a href="#" class="btn">SELECT</a>
+          </div>
+          <div class="price-box">
+            <h3>Lorem, ipsum.</h3>
+            <h2>$1200</h2>
+            <p>Lorem ipsum.
+              Lorem ipsum.
+              Lorem ipsum dolor.
+              Lorem ipsum.</p>
+            <a href="#" class="btn">SELECT</a>
+          </div>
+        </section>
+      </div>
+      <!-- FOOTER -->
+      <footer id="main-footer">
+        <div>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Contact</a>
+        </div>
+        <p class="my-name">This Page recreated by <a target="_blank" id="fcs" href="">shakul malik</a></p>
+        <p>&copy;Copyright 2022,Herovired</p>
+      </footer>
+</body>
+</html>
