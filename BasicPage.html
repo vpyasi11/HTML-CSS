@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            /* border: 1px solid red; */
+        }
+        .container{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+       .header{
+            width:100%;
+            background-color: orange;
+            height: 8vh;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+
+       }
+       .body{
+            background-color: aqua;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            /* height: 80vh; */
+            margin: 10px auto;
+            
+       }
+       .body .left{
+            width:20%;
+            background-color: aquamarine;
+           
+            padding: 10px;
+       }
+       .body .right{
+            width:20%;
+            background-color: violet;
+            padding: 10px;
+       }
+       .body .center{
+            flex: 1;
+            padding: 10px;
+            
+       }
+       .footer{
+        background-color: teal;
+        /* height: 15vh; */
+        padding: 10px;
+       }
+       span{
+        font-weight: bold;
+        font-size: 20px;
+       }
+       img{
+        width:100%;
+        height: 150px;
+        
+       }
+       button{
+        background-color: greenyellow;
+        padding:10px;
+       }
+       .fa{
+        font-weight: bold;
+        font-size: 30px;
+       }
+       button:hover{
+        background-color: tomato;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span>Home</span>
+            <span>Contact Us</span>
+            <span>About US</span>
+            <Span>Resources</Span>
+        </div>
+        <div class="body">
+            <div class="left">
+                <h3>Navigation Pane</h3><br/>
+                left Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse animi ex ipsam veniam incidunt omnis dolorum quis eaque adipisci, quo autem reprehenderit! Adipisci eveniet blanditiis, voluptatum enim provident accusamus ipsam saepe, eos eaque reiciendis quos, accusantium quis autem odit sunt consequatur perferendis corrupti dicta qui magnam vero! Aperiam, maiores nesciunt. Ea adipisci accusantium aperiam modi voluptatem hic inventore, et eveniet totam autem. Laboriosam optio qui delectus tenetur, assumenda impedit voluptatem aut facere nostrum fuga laudantium nihil aliquam veritatis illo recusandae. Libero sapiente adipisci quas aspernatur numquam natus necessitatibus quae aperiam velit, distinctio excepturi voluptas, beatae, ratione optio quis doloremque tempore?
+            </div>
+
+            <div class="center">
+                <h3>Main Body</h3><br>
+                center Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis molestiae iste odit. Soluta alias deserunt repellendus laudantium voluptate voluptatibus. Deserunt, ducimus. Consequatur facilis voluptatem ipsum quam voluptas officia nam voluptates veritatis veniam obcaecati adipisci eveniet, modi a provident aliquid eius nostrum ipsam consequuntur autem doloremque. Sed tempore accusantium, ut totam incidunt est. Nesciunt amet fugit quas magnam dolore ex. Unde quos voluptates sint quasi officiis natus quis consequuntur eos nobis expedita, fuga adipisci, aut explicabo molestias accusamus. Numquam deserunt provident reprehenderit illum, nobis, quia quasi minus tempore atque quam eveniet quos exercitationem. Perferendis ipsam doloremque officia blanditiis magni labore pariatur dolorem dolorum modi, eligendi, sit recusandae repellat dignissimos aliquam laboriosam optio laborum quas, voluptate numquam magnam impedit veritatis. Eligendi, odio? Voluptatibus quae nihil impedit architecto dolores natus cumque mollitia, beatae commodi distinctio, accusamus quidem cupiditate sint quam, ad distinctio? Soluta possimus dolores libero quasi quod deleniti molestiae consequuntur dolorum! Numquam, soluta ab iure itaque, nemo error, eligendi ex voluptatum quas atque amet quos beatae dolorem. Laborum vero illum recusandae perferendis non quisquam commodi excepturi nam, cum esse eaque. Voluptates dolor magnam consectetur sit mollitia dolore! Mollitia doloribus dicta animi deserunt ipsum omnis error, officia sed obcaecati nulla asperiores eaque eum iure dolorum culpa id blanditiis aperiam odio optio ducimus distinctio vitae repudiandae. Dolor repellendus incidunt sint ea quaerat, iusto aut minima inventore temporibus facilis fugit sed optio consequatur in porro nemo alias explicabo similique suscipit iste enim voluptas. Possimus distinctio sapiente asperiores. Aut quibusdam fuga laudantium, tempore debitis unde autem? Nemo eligendi doloribus omnis sequi in, fugit dolor tenetur ratione iste molestiae voluptatum magni, saepe pariatur.
+                <img src="https://images.pexels.com/photos/10255612/pexels-photo-10255612.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"/>
+            </div>
+            
+            <div class="right">
+                <h3>Advertisement</h3><br>
+                right Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis exercitationem ratione odit fuga magnam dolorem laboriosam iure distinctio minus quos, consectetur placeat molestiae rerum vel maiores, molestias quae harum fugit excepturi sed! Delectus esse fugiat voluptates ipsa dolores
+                
+                <iframe width="100%" src="https://www.youtube.com/embed/p4JPFr8g3yQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <footer class="footer"><h3>Contact Us</h3><br>
+            <button class="fa fa-twitter"> </button>
+            <button class="fa fa-facebook"></button>
+            <button class="fa fa-instagram"></button>
+            <button class="fa fa-github"></button>
+            <button class="fa fa-whatsapp"></button>
+        </footer>
+    </div>
+</body>
+</html>
