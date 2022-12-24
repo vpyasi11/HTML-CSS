@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bar{
+            height:25px;
+            width:0%;
+            background-color: orangered;
+            position: relative;
+            top:0;
+            left:25px;
+            margin:10px;
+            animation: fill 5s infinite alternate;
+        }
+        .container{
+            width: 30%;
+        }
+        .div1{
+            animation: fill-1 5s infinite alternate;
+        }
+        .div2{
+            animation: fill-2 5s infinite alternate;
+        }
+        .div3{
+            animation: fill-3 5s infinite alternate;
+        }
+        .div4{
+            animation: fill-4 5s infinite alternate;
+        }
+        .div5{
+            animation: fill-5 5s infinite alternate;
+        }
+        .div6{
+            animation: fill-6 5s infinite alternate;
+        }
+
+        /* @keyframes fill{
+            0%{
+                width:0;
+                background-color: orangered;
+            }
+            35%{
+                width:30%;
+                background-color:red;
+            }
+            70%{
+                width:5%;
+                background-color: yellow;
+            }
+            100%{
+                width: 100%;
+                background-color: black;
+            }
+        } */
+        @keyframes fill-1{
+            0%{
+                width:0;
+                background-color: orangered;
+            }
+            35%{
+                width:50%;
+                background-color:red;
+            }
+            70%{
+                width:20%;
+                background-color: yellow;
+            }
+            100%{
+                width: 90px;
+                background-color: black;
+            }}
+            @keyframes fill-2{
+            0%{
+                width:0;
+                background-color: orangered;
+            }
+            35%{
+                width:80%;
+                background-color:red;
+            }
+            70%{
+                width:60%;
+                background-color: yellow;
+            }
+            100%{
+                width: 100%;
+                background-color: black;
+            }}
+            @keyframes fill-3{
+            0%{
+                width:0;
+                background-color: orangered;
+            }
+            35%{
+                width:70%;
+                background-color:red;
+            }
+            70%{
+                width:30%;
+                background-color: yellow;
+            }
+            100%{
+                width: 100%;
+                background-color: black;
+            }}
+            @keyframes fill-4{
+            0%{
+                width:0;
+                background-color: orangered;
+            }
+            35%{
+                width:36%;
+                background-color:red;
+            }
+            70%{
+                width:5%;
+                background-color: yellow;
+            }
+            100%{
+                width: 85%;
+                background-color: black;
+            }}
+            @keyframes fill-5{
+            0%{
+                width:0;
+                background-color: orangered;
+            }
+            35%{
+                width:10%;
+                background-color:red;
+            }
+            70%{
+                width:90%;
+                background-color: yellow;
+            }
+            100%{
+                width: 40%;
+                background-color: black;
+            }}
+            @keyframes fill-6{
+            0%{
+                width:0;
+                background-color: orangered;
+            }
+            35%{
+                width:30%;
+                background-color:red;
+            }
+            70%{
+                width:5%;
+                background-color: yellow;
+            }
+            100%{
+                width: 100%;
+                background-color: black;
+            }}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bar div1"></div>
+        <div class="bar div2"></div>
+        <div class="bar div3"></div>
+        <div class="bar div4"></div>
+        <div class="bar div5"></div>
+        <div class="bar div6"></div>
+    </div>
+</body>
+</html>
