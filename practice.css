@@ -1,0 +1,55 @@
+.intro-block {
+    background-image: url("./Background.jpg");
+    padding: 10px 0;
+}
+
+h1 {
+    margin: auto;
+    width: fit-content;
+    background-color: #ddd;
+}
+
+marquee{
+    color: red;
+    font-style: italic;
+    background-color: #ddd;
+    margin-top: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    border: 4px solid #ddd;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    color: black;
+}
+
+li:hover, .footer:hover {
+    transform: scale(1.1);
+    background-color: antiquewhite;
+    text-decoration: underline;
+    color: palevioletred;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    height: 150px;
+    width: 150px;
+}
+
+.button {
+    margin: auto;
+    width: fit-content;
+}
+
