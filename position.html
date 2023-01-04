@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 300px;
+            height: 600px;
+            border: 2px solid blue;
+            margin: auto;
+            padding-top:20px;
+        }
+        .child{
+            width: 50px;
+            height: 100px;
+            
+            margin: auto;  
+            position: relative;        
+        }
+        .one{
+            background-color: aqua;
+            
+            top: 100px;
+        }
+        .two{
+            background-color: yellow;
+            
+            bottom: 100px;
+        }
+        .three{
+            background-color: greenyellow;
+          
+            top: 100px;
+         
+        }
+        .four{
+            background-color: orange;
+            
+            bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child one">Div 1</div>
+        <div class="child two">Div 2</div>
+        <div class="child three">Div 3</div>
+        <div class="child four">Div 4</div>
+    </div>
+</body>
+</html>
