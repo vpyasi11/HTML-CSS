@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+#table1{
+    margin: auto;
+    
+    width: 500px;
+    
+}
+.tr1{
+    padding-left: -200px;
+}
+hr{
+    width:500px;
+}
+#table2{
+    margin: auto;
+    width: 500px;
+}
+#b2{
+    margin-left: 430px;
+    
+}
+h2{
+    text-transform: uppercase;
+}
+#b1{
+    border: 1px solid black;
+    margin: 10px 20px;
+    height: 1000px;
+
+}
+

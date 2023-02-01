@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists in HTML</title>
+</head>
+<body>
+    <ol start="10">  <!-- ordered list -   A/a/I/i   default - 1 -->
+        <li> E1 </li>
+        <li> E2 </li>
+        <li> E3 </li>
+        <li> E4 </li>
+    </ol>
+
+    <ul type="none">  <!-- unordered list  type - disc/square/circle/none -->
+        <li> S1 </li>
+        <li> S2 </li>
+        <li> S3 </li>
+    </ul>
+
+    <hr/>
+
+    <a href="mailto:sanpreet.india@gmail.com"> Mail Me </a>
+    <br/> <br/>
+    <form>
+        <table>
+            <caption> <marquee>  Please fill your details </marquee> </caption>
+            <tr> 
+                <td> 
+                    <label for="n1"> First Name :- </label> <input type="text" id="n1"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="n2"> Last Name :- </label> <input type="text" id="n2"/>
+                </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="mob"> Mobile no</label>
+                
+                 <input type="number" id="mob" placeholder="Enter your mobile" required/> </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email ID </label> 
+                    <input type="email" id="email" placeholder="Enter your email id"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="pass"> Password</label>
+                    <input type="password" id="pass" placeholder="Enter ur password"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="date"> Date of Birth </label>
+                    <input type="date" id="date"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label> Gender </label>
+                    <input type="radio" name="gender"/> Male
+                    <input type="radio" name="gender" /> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label> Select different items </label>
+                    <input type="checkbox"/> Facilty 1
+                    <input type="checkbox"/> Facilty 2
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="add"> Address</label>
+                    <textarea style="resize: none;" rows="" cols=""> </textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="c"> Country</label>
+                    <select id="c" size="5">
+                        <option>  </option>
+                        <option> India</option>
+                        <option> Russia</option>
+                        <option> UK</option>
+                        <option> USA</option>
+                        <option> Germany</option>
+                        <option> London</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+               <td>  <input type="submit" value="SUBMIT"/> 
+               <input type="reset" value="RESET"/> </td>
+            </tr>
+        </table>
+       
+
+        
+    </form>
+
+
+    <div>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+        scrambled it to make a type specimen book. 
+        It has <span style="color:red;"> survived </span> not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+        It was popularised in the 1960s with the release of Letraset 
+        sheets containing
+    </div>
+
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.4005538501756!2d78.03995351497595!3d27.175144783015234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1668955428018!5m2!1sen!2sin" 
+    width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    <iframe 
+        src="https://www.youtube.com/embed/49HTIoCccDY"
+        width="500"
+        height="500"> </iframe>
+</body>
+</html>
